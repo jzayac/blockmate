@@ -1,0 +1,23 @@
+## server commands
+  to init project:
+  ```make run-init```
+
+  to run server:
+  ```make run-server```
+
+  to stop server:
+  ```make stop-server```
+
+  to run test:
+  ```make run-test```
+
+  to build production:
+  ```make build-prod```
+
+
+app is running by defailt on port 3000
+you can change port in env file located docker/server/env
+same file is used for production build
+
+## enpoint handler
+http://localhost:3000/check?address=0x4E9ce36E442e55EcD9025B9a6E0D88485d628A67
