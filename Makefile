@@ -1,10 +1,10 @@
 include docker/server/env
 
-run-init:
-	cp docker/server/env.example docker/server/env
-
 run-server:
 	docker compose up -d
+
+server-logs:
+	docker compose logs -f
 
 stop-server:
 	docker compose down

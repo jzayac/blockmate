@@ -1,9 +1,13 @@
-## server commands
-  to init project:
-  ```make run-init```
 
+before running app you need to create env file in docker/server/env
+you can use env.example as example
+
+## server commands
   to run server:
   ```make run-server```
+
+  check server logs:
+  ```make server-logs```
 
   to stop server:
   ```make stop-server```
